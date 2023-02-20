@@ -26,64 +26,84 @@
           destination in world with us.
         </p>
       </section>
-      <section class="pick-buttons">
-        <button class="filght-button">
-          <img
-            class="flight-img"
-            src="./icons/AirplaneButton.svg"
-            alt="Icon"
-          />Flight
-        </button>
-        <button class="hotel-button">
-          <img class="hotel-img" src="./icons/Hotel.svg" alt="Icon" />Hotel
-        </button>
-      </section>
-      <section class="search">
-        <div class="destination">
-          <img
-            class="background-img"
-            src="./icons/SearchBackground1.svg"
-            alt="Background"
-          />
-          <p class="destination-text">Living From</p>
-          <input class="destination-input" type="text" placeholder="Dubai" />
-          <img
-            class="destination-img"
-            src="./icons/Ellipse 1.svg"
-            alt="Background"
-          />
-          <img
-            class="destination-img"
-            src="./icons/AirplaneModeOn.svg"
-            alt="Icon"
-          />
-          <p class="destination-text">Going To</p>
-          <input class="destination-input" type="text" placeholder="New York" />
-        </div>
-        <div class="date">
-          <img
-            class="background-img"
-            src="./icons/SearchBackground2.svg"
-            alt="Background"
-          />
-          <p class="date-text">Leave</p>
-          <img class="leave-img" src="./icons/AirplaneLeave.svg" alt="Icon" />
-          <input class="date-input" type="text" placeholder="23 Jan, Sat" />
-          <img class="hotel-img" src="./icons/Ellipse 1.svg" alt="Background" />
-          <img class="hotel-img" src="./icons/Planner.svg" alt="Icon" />
-          <p class="date-text">Return</p>
-          <img class="return-img" src="./icons/AirplaneReturn.svg" alt="Icon" />
-          <input class="date-input" type="text" placeholder="14 Jan, Thu" />
-        </div>
-        <button class="search-button">
-          <img class="search-image" src="./icons/Ellipse 2.svg" alt="Icon" />
-          <img class="search-image" src="./icons/Line 1.svg" alt="Icon" />
-          <img
-            class="search-background"
-            src="./icons/ButtonBackground.svg"
-            alt="Background"
-          />
-        </button>
+      <section class="booking">
+        <header class="booking-header">
+          <button class="filght-button">
+            <img
+              class="flight-img"
+              src="./icons/AirplaneButton.svg"
+              alt="Icon"
+            />Flight
+          </button>
+          <button class="hotel-button">
+            <img class="hotel-img" src="./icons/Hotel.svg" alt="Icon" />Hotel
+          </button>
+        </header>
+        <main class="booking-main">
+          <div class="destination">
+            <label class="destination-text">Living From</label>
+            <select class="city-picker">
+              <option value="dubai">Dubai</option>
+              <option value="lviv">Lviv</option>
+              <option value="new-york">New York</option>
+              <option value="london">London</option>
+            </select>
+            <img
+              class="destination-img"
+              src="./icons/Ellipse 1.svg"
+              alt="Background"
+            />
+            <img
+              class="destination-img"
+              src="./icons/AirplaneModeOn.svg"
+              alt="Icon"
+            />
+            <label class="destination-text">Going To</label>
+            <select class="city-picker">
+              <option value="dubai">Dubai</option>
+              <option value="lviv">Lviv</option>
+              <option value="new-york">New York</option>
+              <option value="london">London</option>
+            </select>
+          </div>
+          <div class="date">
+            <label class="date-text">Leave</label>
+            <img class="leave-img" src="./icons/AirplaneLeave.svg" alt="Icon" />
+            <input
+              class="date-input"
+              type="date"
+              min="2023-02-20"
+              max="2023-06-20"
+            />
+            <img
+              class="hotel-img"
+              src="./icons/Ellipse 1.svg"
+              alt="Background"
+            />
+            <img class="hotel-img" src="./icons/Planner.svg" alt="Icon" />
+            <label class="date-text">Return</label>
+            <img
+              class="return-img"
+              src="./icons/AirplaneReturn.svg"
+              alt="Icon"
+            />
+            <input
+              class="date-input"
+              type="date"
+              min="2023-02-20"
+              max="2023-06-20"
+            />
+          </div>
+          <button class="search-button">
+            <img class="search-image" src="./icons/Ellipse 2.svg" alt="Icon" />
+            <img class="search-image" src="./icons/Line 1.svg" alt="Icon" />
+            <img
+              class="search-background"
+              src="./icons/ButtonBackground.svg"
+              alt="Background"
+            />
+          </button>
+        </main>
       </section>
       <section class="offers">
         <h2 class="offers-header">Special Upcoming Offers</h2>
@@ -94,87 +114,42 @@
         </div>
         <div class="offers-container">
           <article class="offer">
-            <img
-              class="offer-background"
-              src="./icons/WhiteBackground1.svg"
-              alt="Background"
-            />
             <img class="offer-img" src="./icons/Offer1.svg" alt="Offer" />
-            <p class="offer-date">14 FEB 2022</p>
-            <img
-              class="type-background"
-              src="./icons/Rectangle 11.svg"
-              alt="Background"
-            />
-            <p class="type-offer">Relax</p>
-            <p class="offer-duration">3 Days, 3 Nights</p>
+            <span class="offer-date">14 FEB 2022</span>
+            <span class="type-offer">Relax</span>
+            <span class="offer-duration">3 Days, 3 Nights</span>
             <h3 class="offer-header">Loga Sea</h3>
-            <p class="offer-price"><b>700$</b>/Person</p>
+            <span class="offer-price"><b>700$</b>/Person</span>
             <button class="offer-btn">Book Now</button>
           </article>
           <article class="offer">
-            <img
-              class="offer-background"
-              src="./icons/WhiteBackground1.svg"
-              alt="Background"
-            />
             <img class="offer-img" src="./icons/Offer2.svg" alt="Offer" />
-            <p class="offer-date">18 JUN 2022</p>
-            <img
-              class="type-background"
-              src="./icons/Rectangle 11 (1).svg"
-              alt="Background"
-            />
-            <p class="type-offer">Adventure</p>
-            <p class="offer-duration">4 Days, 3 Nights</p>
+            <span class="offer-date">18 JUN 2022</span>
+            <span class="type-offer">Adventure</span>
+            <span class="offer-duration">4 Days, 3 Nights</span>
             <h3 class="offer-header">Ansgar Scheffold</h3>
-            <p class="offer-price"><b>400$</b>/Person</p>
+            <span class="offer-price"><b>400$</b>/Person</span>
             <button class="offer-btn">Book Now</button>
           </article>
           <article class="offer">
-            <img
-              class="offer-background"
-              src="./icons/WhiteBackground1.svg"
-              alt="BackGround"
-            />
             <img class="offer-img" src="./icons/Offer3.svg" alt="Offer" />
-            <p class="offer-date">22 DEC 2022</p>
-            <img
-              class="type-background"
-              src="./icons/Rectangle 11.svg"
-              alt="Background"
-            />
-            <p class="type-offer">Relax</p>
-            <p class="offer-duration">7 Days, 6 Nights</p>
+            <span class="offer-date">22 DEC 2022</span>
+            <span class="type-offer">Relax</span>
+            <span class="offer-duration">7 Days, 6 Nights</span>
             <h3 class="offer-header">Ansgar Scheffold</h3>
-            <p class="offer-price"><b>340$</b>/Person</p>
+            <span class="offer-price"><b>340$</b>/Person</span>
             <button class="offer-btn">Book Now</button>
           </article>
         </div>
       </section>
       <section class="contact-info">
         <img class="info-img" src="./icons/Contacts.svg" alt="Photo" />
-        <img
-          class="text-background"
-          src="./icons/ContactTextBackground.svg"
-          alt="Background"
-        />
-        <p class="img-text">300+</p>
-        <p class="img-text">DESTINATIONS</p>
-        <img
-          class="text-background"
-          src="./icons/ContactTextBackground.svg"
-          alt="Background"
-        />
-        <p class="img-text">5000+</p>
-        <p class="img-text">TOURISTS</p>
-        <img
-          class="text-background"
-          src="./icons/ContactTextBackground.svg"
-          alt="Background"
-        />
-        <p class="img-text">150+</p>
-        <p class="img-text">HOTELS</p>
+        <span class="img-text">300+</span>
+        <span class="img-text">DESTINATIONS</span>
+        <span class="img-text">5000+</span>
+        <span class="img-text">TOURISTS</span>
+        <span class="img-text">150+</span>
+        <span class="img-text">HOTELS</span>
         <article class="info">
           <h2 class="info-header">Travel Any Corner of The World With Us</h2>
           <p class="info text">
@@ -197,20 +172,10 @@
         </div>
         <div class="recommendations-container">
           <article class="recommendation">
-            <img
-              class="recommendation-background"
-              src="./icons/WhiteBackGround2.svg"
-              alt="Background"
-            />
             <main class="recommendation-main">
               <div class="rate">
-                <img
-                  class="rate-background"
-                  src="./icons/RateBackground.svg"
-                  alt="Background"
-                />
                 <img class="rate-img" src="./icons/Star.svg" alt="Star" />
-                <p>3.4</p>
+                <span>3.4</span>
               </div>
               <img
                 class="recommendation-img"
@@ -225,24 +190,14 @@
                 src="./icons/Location.svg"
                 alt="Location"
               />
-              <p class="footer-text">Cambodia</p>
+              <span class="footer-text">Cambodia</span>
             </footer>
           </article>
           <article class="recommendation">
-            <img
-              class="recommendation-background"
-              src="./icons/WhiteBackGround2.svg"
-              alt="Background"
-            />
             <main class="recommendation-main">
               <div class="rate">
-                <img
-                  class="rate-background"
-                  src="./icons/RateBackground.svg"
-                  alt="Background"
-                />
                 <img class="rate-img" src="./icons/Star.svg" alt="Star" />
-                <p>4.5</p>
+                <span>4.5</span>
               </div>
               <img
                 class="recommendation-img"
@@ -257,24 +212,14 @@
                 src="./icons/Location.svg"
                 alt="Location"
               />
-              <p class="footer-text">Cambodia</p>
+              <span class="footer-text">Cambodia</span>
             </footer>
           </article>
           <article class="recommendation">
-            <img
-              class="recommendation-background"
-              src="./icons/WhiteBackGround2.svg"
-              alt="Background"
-            />
             <main class="recommendation-main">
               <div class="rate">
-                <img
-                  class="rate-background"
-                  src="./icons/RateBackground.svg"
-                  alt="Background"
-                />
                 <img class="rate-img" src="./icons/Star.svg" alt="Star" />
-                <p>4.2</p>
+                <span>4.2</span>
               </div>
               <img
                 class="recommendation-img"
@@ -289,24 +234,14 @@
                 src="./icons/Location.svg"
                 alt="Location"
               />
-              <p class="footer-text">Cambodia</p>
+              <span class="footer-text">Cambodia</span>
             </footer>
           </article>
           <article class="recommendation">
-            <img
-              class="recommendation-background"
-              src="./icons/WhiteBackGround2.svg"
-              alt="Background"
-            />
             <main class="recommendation-main">
               <div class="rate">
-                <img
-                  class="rate-background"
-                  src="./icons/RateBackground.svg"
-                  alt="Background"
-                />
                 <img class="rate-img" src="./icons/Star.svg" alt="Star" />
-                <p>3.5</p>
+                <span>3.5</span>
               </div>
               <img
                 class="recommendation-img"
@@ -321,18 +256,13 @@
                 src="./icons/Location.svg"
                 alt="Location"
               />
-              <p class="footer-text">Cambodia</p>
+              <span class="footer-text">Cambodia</span>
             </footer>
           </article>
         </div>
       </section>
       <section class="reviews">
         <article class="review">
-          <img
-            class="review-background"
-            src="./icons/ReviewBackground.svg"
-            alt="Background"
-          />
           <div class="review-txt">
             <img class="review-img" src="./icons/Quotes.svg" alt="Quotes" />
             <p class="review-txt">
@@ -341,7 +271,7 @@
               travel planner, Jaouad, was incredible.
             </p>
             <a class="review-link" href="#">-Vand D</a>
-            <p class="review-txt">Happy Treloo</p>
+            <span class="review-txt">Happy Treloo</span>
           </div>
           <div class="review-user">
             <img
@@ -351,22 +281,12 @@
             />
             <img class="user-img" src="./icons/Person1.svg" alt="Avatar" />
             <div class="rate">
-              <img
-                class="rate-background"
-                src="./icons/RateBackground.svg"
-                alt="Background"
-              />
               <img class="rate-img" src="./icons/Star.svg" alt="Star" />
-              <p>4.5</p>
+              <span>4.5</span>
             </div>
           </div>
         </article>
         <article class="review">
-          <img
-            class="review-background"
-            src="./icons/ReviewBackground.svg"
-            alt="Background"
-          />
           <div class="review-txt">
             <img class="review-img" src="./icons/Quotes.svg" alt="Quotes" />
             <p class="review-txt">
@@ -375,7 +295,7 @@
               travel planner, Jaouad, was incredible.
             </p>
             <a class="review-link" href="#">-Tru Vio</a>
-            <p class="review-txt">Happy Treloo</p>
+            <span class="review-txt">Happy Treloo</span>
           </div>
           <div class="review-user">
             <img
@@ -385,13 +305,8 @@
             />
             <img class="user-img" src="./icons/Person2.svg" alt="Avatar" />
             <div class="rate">
-              <img
-                class="rate-background"
-                src="./icons/RateBackground.svg"
-                alt="Background"
-              />
               <img class="rate-img" src="./icons/Star.svg" alt="Star" />
-              <p>4.9</p>
+              <span>4.9</span>
             </div>
           </div>
           <button class="recommendations-btn">
