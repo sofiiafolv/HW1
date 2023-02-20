@@ -1,289 +1,423 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Treloo</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <img class="background-img" src="./icons/Background.svg" alt="Background" />
     <header class="header">
-        <img class="header-logo" src="./icons/Treloo.svg" alt="Logo" />
-        <nav class="header-nav">
-            <a class="header-link" href="#">Review</a>
-            <a class="header-link" href="#">Tips</a>
-            <a class="header-link" href="#">Alerts</a>
-            <a class="header-link" href="#">Blog</a>
-            <button class="header-btn">Blog</button>
-        </nav>
+      <img class="header-logo" src="./icons/Treloo.svg" alt="Logo" />
+      <nav class="header-nav">
+        <a class="header-link" href="#">Review</a>
+        <a class="header-link" href="#">Tips</a>
+        <a class="header-link" href="#">Alerts</a>
+        <a class="header-link" href="#">Blog</a>
+        <button class="header-btn">Blog</button>
+      </nav>
     </header>
     <main class="main">
-        <section class="banner">
-            <h1 class="banner-header">Discover Your Life, Travel Where You Want</h1>
-            <p class="banner-text">
-                Would you explore nature paradise in the world, let’s find the best
-                destination in world with us.
+      <section class="banner">
+        <h1 class="banner-header">Discover Your Life, Travel Where You Want</h1>
+        <p class="banner-text">
+          Would you explore nature paradise in the world, let’s find the best
+          destination in world with us.
+        </p>
+      </section>
+      <section class="pick">
+        <div class="flight">
+          <img class="flight-img" src="./icons/AirplaneButton.svg" alt="Icon" />
+          <button class="filght-button">Flight</button>
+        </div>
+        <div class="hotel">
+          <img class="hotel-img" src="./icons/Hotel.svg" alt="Icon" />
+          <button class="hotel-button">Hotel</button>
+        </div>
+      </section>
+      <section class="search">
+        <div class="destination">
+          <img
+            class="background-img"
+            src="./icons/SearchBackground1.svg"
+            alt="Background"
+          />
+          <p class="destination-text">Living From</p>
+          <input class="destination-input" type="text" placeholder="Dubai" />
+          <img
+            class="destination-img"
+            src="./icons/Ellipse 1.svg"
+            alt="Background"
+          />
+          <img
+            class="destination-img"
+            src="./icons/AirplaneModeOn.svg"
+            alt="Icon"
+          />
+          <p class="destination-text">Going To</p>
+          <input class="destination-input" type="text" placeholder="New York" />
+        </div>
+        <div class="date">
+          <img
+            class="background-img"
+            src="./icons/SearchBackground2.svg"
+            alt="Background"
+          />
+          <p class="date-text">Leave</p>
+          <img class="leave-img" src="./icons/AirplaneLeave.svg" alt="Icon" />
+          <input class="date-input" type="text" placeholder="23 Jan, Sat" />
+          <img class="hotel-img" src="./icons/Ellipse 1.svg" alt="Background" />
+          <img class="hotel-img" src="./icons/Planner.svg" alt="Icon" />
+          <p class="date-text">Return</p>
+          <img class="return-img" src="./icons/AirplaneReturn.svg" alt="Icon" />
+          <input class="date-input" type="text" placeholder="14 Jan, Thu" />
+        </div>
+        <button class="search-button">
+          <img class="search-image" src="./icons/Ellipse 2.svg" alt="Icon" />
+          <img class="search-image" src="./icons/Line 1.svg" alt="Icon" />
+          <img
+            class="search-background"
+            src="./icons/ButtonBackground.svg"
+            alt="Background"
+          />
+        </button>
+      </section>
+      <section class="offers">
+        <h2 class="offers-header">Special Upcoming Offers</h2>
+        <div class="tabs">
+          <button class="tablinks">Team</button>
+          <button class="tablinks">Couple</button>
+          <button class="tablinks">Family</button>
+        </div>
+        <div class="offers-container">
+          <article class="offer">
+            <img
+              class="offer-background"
+              src="./icons/WhiteBackground1.svg"
+              alt="Background"
+            />
+            <img class="offer-img" src="./icons/Offer1.svg" alt="Offer" />
+            <p class="offer-date">14 FEB 2022</p>
+            <img
+              class="type-background"
+              src="./icons/Rectangle 11.svg"
+              alt="Background"
+            />
+            <p class="type-offer">Relax</p>
+            <p class="offer-duration">3 Days, 3 Nights</p>
+            <h3 class="offer-header">Loga Sea</h3>
+            <p class="offer-price"><b>700$</b>/Person</p>
+            <button class="offer-btn">Book Now</button>
+          </article>
+          <article class="offer">
+            <img
+              class="offer-background"
+              src="./icons/WhiteBackground1.svg"
+              alt="Background"
+            />
+            <img class="offer-img" src="./icons/Offer2.svg" alt="Offer" />
+            <p class="offer-date">18 JUN 2022</p>
+            <img
+              class="type-background"
+              src="./icons/Rectangle 11 (1).svg"
+              alt="Background"
+            />
+            <p class="type-offer">Adventure</p>
+            <p class="offer-duration">4 Days, 3 Nights</p>
+            <h3 class="offer-header">Ansgar Scheffold</h3>
+            <p class="offer-price"><b>400$</b>/Person</p>
+            <button class="offer-btn">Book Now</button>
+          </article>
+          <article class="offer">
+            <img
+              class="offer-background"
+              src="./icons/WhiteBackground1.svg"
+              alt="BackGround"
+            />
+            <img class="offer-img" src="./icons/Offer3.svg" alt="Offer" />
+            <p class="offer-date">22 DEC 2022</p>
+            <img
+              class="type-background"
+              src="./icons/Rectangle 11.svg"
+              alt="Background"
+            />
+            <p class="type-offer">Relax</p>
+            <p class="offer-duration">7 Days, 6 Nights</p>
+            <h3 class="offer-header">Ansgar Scheffold</h3>
+            <p class="offer-price"><b>340$</b>/Person</p>
+            <button class="offer-btn">Book Now</button>
+          </article>
+        </div>
+      </section>
+      <section class="contact-info">
+        <img class="info-img" src="./icons/Contacts.svg" alt="Photo" />
+        <img
+          class="text-background"
+          src="./icons/ContactTextBackground.svg"
+          alt="Background"
+        />
+        <p class="img-text">300+</p>
+        <p class="img-text">DESTINATIONS</p>
+        <img
+          class="text-background"
+          src="./icons/ContactTextBackground.svg"
+          alt="Background"
+        />
+        <p class="img-text">5000+</p>
+        <p class="img-text">TOURISTS</p>
+        <img
+          class="text-background"
+          src="./icons/ContactTextBackground.svg"
+          alt="Background"
+        />
+        <p class="img-text">150+</p>
+        <p class="img-text">HOTELS</p>
+        <article class="info">
+          <h2 class="info-header">Travel Any Corner of The World With Us</h2>
+          <p class="info text">
+            Would you explore nature paradise in the world, let’s find the best
+            destination in world with us, Would you explore nature paradise in
+            the world, let’s find the best destination in world with us. Would
+            you explore nature paradise in the world, let’s find the best
+            destination in world with us. Would you explore nature paradise in
+            the world, let’s find the best destination in world with us.
+          </p>
+          <button class="contact-button">Contact Us</button>
+        </article>
+      </section>
+      <section class="recommendations">
+        <h2 class="recommendations-header">Recommended Destination</h2>
+        <div class="tabs">
+          <button class="tablinks">Popular</button>
+          <button class="tablinks">Adventure</button>
+          <button class="tablinks">Beach</button>
+        </div>
+        <div class="recommendations-container">
+          <article class="recommendation">
+            <img
+              class="recommendation-background"
+              src="./icons/WhiteBackGround2.svg"
+              alt="Background"
+            />
+            <main class="recommendation-main">
+              <div class="rate">
+                <img
+                  class="rate-background"
+                  src="./icons/RateBackground.svg"
+                  alt="Background"
+                />
+                <img class="rate-img" src="./icons/Star.svg" alt="Star" />
+                <p>3.4</p>
+              </div>
+              <img
+                class="recommendation-img"
+                src="./icons/Recommendation1.svg"
+                alt="Recommendation"
+              />
+              <h3 class="recommendation-header">Kina Mountain</h3>
+            </main>
+            <footer class="recommandation-footer">
+              <img
+                class="footer-img"
+                src="./icons/Location.svg"
+                alt="Location"
+              />
+              <p class="footer-text">Cambodia</p>
+            </footer>
+          </article>
+          <article class="recommendation">
+            <img
+              class="recommendation-background"
+              src="./icons/WhiteBackGround2.svg"
+              alt="Background"
+            />
+            <main class="recommendation-main">
+              <div class="rate">
+                <img
+                  class="rate-background"
+                  src="./icons/RateBackground.svg"
+                  alt="Background"
+                />
+                <img class="rate-img" src="./icons/Star.svg" alt="Star" />
+                <p>4.5</p>
+              </div>
+              <img
+                class="recommendation-img"
+                src="./icons/Recommendation2.svg"
+                alt="Recommendation"
+              />
+              <h3 class="recommendation-header">Kina Mountain</h3>
+            </main>
+            <footer class="recommandation-footer">
+              <img
+                class="footer-img"
+                src="./icons/Location.svg"
+                alt="Location"
+              />
+              <p class="footer-text">Cambodia</p>
+            </footer>
+          </article>
+          <article class="recommendation">
+            <img
+              class="recommendation-background"
+              src="./icons/WhiteBackGround2.svg"
+              alt="Background"
+            />
+            <main class="recommendation-main">
+              <div class="rate">
+                <img
+                  class="rate-background"
+                  src="./icons/RateBackground.svg"
+                  alt="Background"
+                />
+                <img class="rate-img" src="./icons/Star.svg" alt="Star" />
+                <p>4.2</p>
+              </div>
+              <img
+                class="recommendation-img"
+                src="./icons/Recommendation3.svg"
+                alt="Recommendation"
+              />
+              <h3 class="recommendation-header">Kina Mountain</h3>
+            </main>
+            <footer class="recommandation-footer">
+              <img
+                class="footer-img"
+                src="./icons/Location.svg"
+                alt="Location"
+              />
+              <p class="footer-text">Cambodia</p>
+            </footer>
+          </article>
+          <article class="recommendation">
+            <img
+              class="recommendation-background"
+              src="./icons/WhiteBackGround2.svg"
+              alt="Background"
+            />
+            <main class="recommendation-main">
+              <div class="rate">
+                <img
+                  class="rate-background"
+                  src="./icons/RateBackground.svg"
+                  alt="Background"
+                />
+                <img class="rate-img" src="./icons/Star.svg" alt="Star" />
+                <p>3.5</p>
+              </div>
+              <img
+                class="recommendation-img"
+                src="./icons/Recommendation4.svg"
+                alt="Recommendation"
+              />
+              <h3 class="recommendation-header">Kina Mountain</h3>
+            </main>
+            <footer class="recommandation-footer">
+              <img
+                class="footer-img"
+                src="./icons/Location.svg"
+                alt="Location"
+              />
+              <p class="footer-text">Cambodia</p>
+            </footer>
+          </article>
+        </div>
+      </section>
+      <section class="reviews">
+        <article class="review">
+          <img
+            class="review-background"
+            src="./icons/ReviewBackground.svg"
+            alt="Background"
+          />
+          <div class="review-txt">
+            <img class="review-img" src="./icons/Quotes.svg" alt="Quotes" />
+            <p class="review-txt">
+              Our trip to Morocco was truly a once in a lifetime experience and
+              we are so grateful to everyone that made it happen seamlessly. Our
+              travel planner, Jaouad, was incredible.
             </p>
-        </section>
-        <section class="pick">
-            <div class="flight">
-                <img class="flight-img" src="./icons/AirplaneButton.svg" alt="Icon" />
-                <button class="filght-button">Flight</button>
+            <a class="review-link" href="#">-Vand D</a>
+            <p class="review-txt">Happy Treloo</p>
+          </div>
+          <div class="review-user">
+            <img
+              class="user-background"
+              src="./icons/ReviewEllipse.svg"
+              alt="Background"
+            />
+            <img class="user-img" src="./icons/Person1.svg" alt="Avatar" />
+            <div class="rate">
+              <img
+                class="rate-background"
+                src="./icons/RateBackground.svg"
+                alt="Background"
+              />
+              <img class="rate-img" src="./icons/Star.svg" alt="Star" />
+              <p>4.5</p>
             </div>
-            <div class="hotel">
-                <img class="hotel-img" src="./icons/Hotel.svg" alt="Icon" />
-                <button class="hotel-button">Hotel</button>
+          </div>
+        </article>
+        <article class="review">
+          <img
+            class="review-background"
+            src="./icons/ReviewBackground.svg"
+            alt="Background"
+          />
+          <div class="review-txt">
+            <img class="review-img" src="./icons/Quotes.svg" alt="Quotes" />
+            <p class="review-txt">
+              Our trip to Morocco was truly a once in a lifetime experience and
+              we are so grateful to everyone that made it happen seamlessly. Our
+              travel planner, Jaouad, was incredible.
+            </p>
+            <a class="review-link" href="#">-Tru Vio</a>
+            <p class="review-txt">Happy Treloo</p>
+          </div>
+          <div class="review-user">
+            <img
+              class="user-background"
+              src="./icons/ReviewEllipse.svg"
+              alt="Background"
+            />
+            <img class="user-img" src="./icons/Person2.svg" alt="Avatar" />
+            <div class="rate">
+              <img
+                class="rate-background"
+                src="./icons/RateBackground.svg"
+                alt="Background"
+              />
+              <img class="rate-img" src="./icons/Star.svg" alt="Star" />
+              <p>4.9</p>
             </div>
-        </section>
-        <section class="search">
-            <div class="destination">
-                <img class="background-img" src="./icons/SearchBackground1.svg" alt="Background" />
-                <p class="destination-text">
-                    Living From
-                </p>
-                <input class="destination-input" type="text" placeholder="Dubai" />
-                <img class="destination-img" src="./icons/Ellipse 1.svg" alt="Background" />
-                <img class="destination-img" src="./icons/AirplaneModeOn.svg" alt="Icon" />
-                <p class="destination-text">
-                    Going To
-                </p>
-                <input class="destination-input" type="text" placeholder="New York" />
-            </div>
-            <div class="date">
-                <img class="background-img" src="./icons/SearchBackground2.svg" alt="Background" />
-                <p class="date-text">
-                    Leave
-                </p>
-                <img class="leave-img" src="./icons/AirplaneLeave.svg" alt="Icon">
-                <input class="date-input" type="text" placeholder="23 Jan, Sat" />
-                <img class="hotel-img" src="./icons/Ellipse 1.svg" alt="Background" />
-                <img class="hotel-img" src="./icons/Planner.svg" alt="Icon" />
-                <p class="date-text">
-                    Return
-                </p>
-                <img class="return-img" src="./icons/AirplaneReturn.svg" alt="Icon">
-                <input class="date-input" type="text" placeholder="14 Jan, Thu" />
-            </div>
-            <button class="search-button">
-                <img class="search-image" src="./icons/Ellipse 2.svg" alt="Icon">
-                <img class="search-image" src="./icons/Line 1.svg" alt="Icon">
-                <img class="search-background" src="./icons/ButtonBackground.svg" alt="Background">
-            </button>
-        </section>
-        <section class="offers">
-            <h2 class="offers-header">Special Upcoming Offers</h2>
-            <div class="tabs">
-                <button class="tablinks">Team</button>
-                <button class="tablinks">Couple</button>
-                <button class="tablinks">Family</button>
-            </div>
-            <div class="offers-container">
-                <article class="offer">
-                    <img class="offer-background" src="./icons/WhiteBackground1.svg" alt="Background">
-                    <img class="offer-img" src="./icons/Offer1.svg" alt="Offer">
-                    <p class="offer-date">14 FEB 2022</p>
-                    <img class="type-background" src="./icons/Rectangle 11.svg" alt="Background" />
-                    <p class="type-offer">Relax</p>
-                    <p class="offer-duration">3 Days, 3 Nights</p>
-                    <h3 class="offer-header">Loga Sea</h4>
-                        <p class="offer-price"><b>700$</b>/Person</p>
-                        <button class="offer-btn">Book Now</button>
-                </article>
-                <article class="offer">
-                    <img class="offer-background" src="./icons/WhiteBackground1.svg" alt="Background">
-                    <img class="offer-img" src="./icons/Offer2.svg" alt="Offer">
-                    <p class="offer-date">18 JUN 2022</p>
-                    <img class="type-background" src="./icons/Rectangle 11 (1).svg" alt="Background" />
-                    <p class="type-offer">Adventure</p>
-                    <p class="offer-duration">4 Days, 3 Nights</p>
-                    <h3 class="offer-header">Ansgar Scheffold</h4>
-                        <p class="offer-price"><b>400$</b>/Person</p>
-                        <button class="offer-btn">Book Now</button>
-                </article>
-                <article class="offer">
-                    <img class="offer-background" src="./icons/WhiteBackground1.svg" alt="BackGround">
-                    <img class="offer-img" src="./icons/Offer3.svg" alt="Offer">
-                    <p class="offer-date">22 DEC 2022</p>
-                    <img class="type-background" src="./icons/Rectangle 11.svg" alt="Background" />
-                    <p class="type-offer">Relax</p>
-                    <p class="offer-duration">7 Days, 6 Nights</p>
-                    <h3 class="offer-header">Ansgar Scheffold</h4>
-                        <p class="offer-price"><b>340$</b>/Person</p>
-                        <button class="offer-btn">Book Now</button>
-                </article>
-            </div>
-        </section>
-        <section class="contact-info">
-            <img class="info-img" src="./icons/Contacts.svg" alt="Photo">
-            <img class="text-background" src="./icons/ContactTextBackground.svg" alt="Background">
-            <p class="img-text">300+</p>
-            <p class="img-text">DESTINATIONS</p>
-            <img class="text-background" src="./icons/ContactTextBackground.svg" alt="Background">
-            <p class="img-text">5000+</p>
-            <p class="img-text">TOURISTS</p>
-            <img class="text-background" src="./icons/ContactTextBackground.svg" alt="Background">
-            <p class="img-text">150+</p>
-            <p class="img-text">HOTELS</p>
-            <article class="info">
-                <h2 class="info-header">Travel Any Corner of The World With Us</h2>
-                <p class="info text">
-                    Would you explore nature paradise in the world, let’s find
-                    the best destination in world with us, Would you explore
-                    nature paradise in the world, let’s find the best destination
-                    in world with us. Would you explore nature paradise in the
-                    world, let’s find the best destination in world with us.
-
-                    Would you explore nature paradise in the world, let’s find
-                    the best destination in world with us.
-                </p>
-                <button class="contact-button">Contact Us</button>
-            </article>
-        </section>
-        <section class="recommendations">
-            <h2 class="recommendations-header">Recommended Destination</h2>
-            <div class="tabs">
-                <button class="tablinks">Popular</button>
-                <button class="tablinks">Adventure</button>
-                <button class="tablinks">Beach</button>
-            </div>
-            <div class="recommendations-container">
-                <article class="recommendation">
-                    <img class="recommendation-background" src="./icons/WhiteBackGround2.svg" alt="Background">
-                    <main class="recommendation-main">
-                        <div class="rate">
-                            <img class="rate-background" src="./icons/RateBackground.svg" alt="Background">
-                            <img class="rate-img" src="./icons/Star.svg" alt="Star">
-                            <p>3.4</p>
-                        </div>
-                        <img class="recommendation-img" src="./icons/Recommendation1.svg" alt="Recommendation">
-                        <h3 class="recommendation-header">Kina Mountain</h3>
-                    </main>
-                    <footer class="recommandation-footer">
-                        <img class="footer-img" src="./icons/Location.svg" alt="Location">
-                        <p class="footer-text">Cambodia</p>
-                    </footer>
-                </article>
-                <article class="recommendation">
-                    <img class="recommendation-background" src="./icons/WhiteBackGround2.svg" alt="Background">
-                    <main class="recommendation-main">
-                        <div class="rate">
-                            <img class="rate-background" src="./icons/RateBackground.svg" alt="Background">
-                            <img class="rate-img" src="./icons/Star.svg" alt="Star">
-                            <p>4.5</p>
-                        </div>
-                        <img class="recommendation-img" src="./icons/Recommendation2.svg" alt="Recommendation">
-                        <h3 class="recommendation-header">Kina Mountain</h3>
-                    </main>
-                    <footer class="recommandation-footer">
-                        <img class="footer-img" src="./icons/Location.svg" alt="Location">
-                        <p class="footer-text">Cambodia</p>
-                    </footer>
-                </article>
-                <article class="recommendation">
-                    <img class="recommendation-background" src="./icons/WhiteBackGround2.svg" alt="Background">
-                    <main class="recommendation-main">
-                        <div class="rate">
-                            <img class="rate-background" src="./icons/RateBackground.svg" alt="Background">
-                            <img class="rate-img" src="./icons/Star.svg" alt="Star">
-                            <p>4.2</p>
-                        </div>
-                        <img class="recommendation-img" src="./icons/Recommendation3.svg" alt="Recommendation">
-                        <h3 class="recommendation-header">Kina Mountain</h3>
-                    </main>
-                    <footer class="recommandation-footer">
-                        <img class="footer-img" src="./icons/Location.svg" alt="Location">
-                        <p class="footer-text">Cambodia</p>
-                    </footer>
-                </article>
-                <article class="recommendation">
-                    <img class="recommendation-background" src="./icons/WhiteBackGround2.svg" alt="Background">
-                    <main class="recommendation-main">
-                        <div class="rate">
-                            <img class="rate-background" src="./icons/RateBackground.svg" alt="Background">
-                            <img class="rate-img" src="./icons/Star.svg" alt="Star">
-                            <p>3.5</p>
-                        </div>
-                        <img class="recommendation-img" src="./icons/Recommendation4.svg" alt="Recommendation">
-                        <h3 class="recommendation-header">Kina Mountain</h3>
-                    </main>
-                    <footer class="recommandation-footer">
-                        <img class="footer-img" src="./icons/Location.svg" alt="Location">
-                        <p class="footer-text">Cambodia</p>
-                    </footer>
-                </article>
-            </div>
-        </section>
-        <section class="reviews">
-            <article class="review">
-                <img class="review-background" src="./icons/ReviewBackground.svg" alt="Background">
-                <div class="review-txt">
-                    <img class="review-img" src="./icons/Quotes.svg" alt="Quotes">
-                    <p class="review-txt">
-                        Our trip to Morocco was truly a once in a lifetime
-                        experience and we are so grateful to everyone
-                        that made it happen seamlessly. Our travel
-                        planner, Jaouad, was incredible.
-                    </p>
-                    <a class="review-link" href="#">-Vand D</a>
-                    <p class="review-txt">Happy Treloo</p>
-                </div>
-                <div class="review-user">
-                    <img class="user-background" src="./icons/ReviewEllipse.svg" alt="Background">
-                    <img class="user-img" src="./icons/Person1.svg" alt="Avatar">
-                    <div class="rate">
-                        <img class="rate-background" src="./icons/RateBackground.svg" alt="Background">
-                        <img class="rate-img" src="./icons/Star.svg" alt="Star">
-                        <p>4.5</p>
-                    </div>
-                </div>
-            </article>
-            <article class="review">
-                <img class="review-background" src="./icons/ReviewBackground.svg" alt="Background">
-                <div class="review-txt">
-                    <img class="review-img" src="./icons/Quotes.svg" alt="Quotes">
-                    <p class="review-txt">
-                        Our trip to Morocco was truly a once in a lifetime
-                        experience and we are so grateful to everyone
-                        that made it happen seamlessly. Our travel
-                        planner, Jaouad, was incredible.
-                    </p>
-                    <a class="review-link" href="#">-Tru Vio</a>
-                    <p class="review-txt">Happy Treloo</p>
-                </div>
-                <div class="review-user">
-                    <img class="user-background" src="./icons/ReviewEllipse.svg" alt="Background">
-                    <img class="user-img" src="./icons/Person2.svg" alt="Avatar">
-                    <div class="rate">
-                        <img class="rate-background" src="./icons/RateBackground.svg" alt="Background">
-                        <img class="rate-img" src="./icons/Star.svg" alt="Star">
-                        <p>4.9</p>
-                    </div>
-                </div>
-                <button class="recommendations-btn">
-                    <img class="button-img" src="./icons/Button1.svg">
-                </button>
-                <button class="recommendations-btn">
-                    <img class="button-img" src="./icons/Button2.svg">
-                </button>
-            </article>
-            <article class="registration">
-                <img class="registration-background" src="./icons/Background2.svg" alt="Background">
-                <h2 class="registration-header">Don’t Miss The 50% Discount if You register Today</h2>
-                <button class="registration-button">Register Today</button>
-            </article>
-        </section>
+          </div>
+          <button class="recommendations-btn">
+            <img class="button-img" src="./icons/Button1.svg" />
+          </button>
+          <button class="recommendations-btn">
+            <img class="button-img" src="./icons/Button2.svg" />
+          </button>
+        </article>
+        <article class="registration">
+          <img
+            class="registration-background"
+            src="./icons/Background2.svg"
+            alt="Background"
+          />
+          <h2 class="registration-header">
+            Don’t Miss The 50% Discount if You register Today
+          </h2>
+          <button class="registration-button">Register Today</button>
+        </article>
+      </section>
     </main>
     <footer class="footer">
-        <p class="footer-txt">
-            © 2022 Treloo LLC - All right reserved.
-        </p>
-        <a class="footer-link" href="#">Review</a>
-        <a class="footer-link" href="#">Tips</a>
-        <a class="footer-link" href="#">Alerts</a>
-        <a class="footer-link" href="#">Blog</a>
+      <p class="footer-txt">© 2022 Treloo LLC - All right reserved.</p>
+      <a class="footer-link" href="#">Review</a>
+      <a class="footer-link" href="#">Tips</a>
+      <a class="footer-link" href="#">Alerts</a>
+      <a class="footer-link" href="#">Blog</a>
     </footer>
-</body>
-
+  </body>
 </html>
