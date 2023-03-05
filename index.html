@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Treloo</title>
   </head>
 
@@ -109,165 +116,194 @@
       </section>
       <section class="offers">
         <h2 class="offers-header">Special Upcoming Offers</h2>
-        <div class="tabs">
-          <div class="tablinks"><span>Team</span></div>
-          <div class="tablinks"><span>Couple</span></div>
-          <div class="tablinks"><span>Family</span></div>
+        <div class="off-tabs">
+          <button class="active off-tablinks">Team</button>
+          <button class="off-tablinks">Couple</button>
+          <button class="off-tablinks">Family</button>
         </div>
         <div class="offers-container">
           <article class="offer">
-            <img class="offer-img" src="./icons/Offer1.svg" alt="Offer" />
-            <span class="offer-date">14 FEB 2022</span>
-            <span class="type-offer">Relax</span>
-            <span class="offer-duration">3 Days, 3 Nights</span>
-            <h3 class="offer-header">Loga Sea</h3>
-            <span class="offer-price">700$</span>
-            <span>/Person</span>
-            <button class="offer-btn">Book Now</button>
+            <div class="photo-and-data">
+              <img class="offer-img" src="./icons/Offer1.svg" alt="Offer" />
+              <span class="offer-date">14 FEB 2022</span>
+            </div>
+            <div class="offers-info">
+              <span class="type-offer relax">Relax</span>
+              <span class="offer-duration">3 Days, 3 Nights</span>
+
+              <h3 class="offer-header">Loga Sea</h3>
+              <span class="offer-price">700$</span>
+              <span class="offer-txt">/Person</span>
+              <button class="offer-btn">Book Now</button>
+            </div>
           </article>
           <article class="offer">
-            <img class="offer-img" src="./icons/Offer2.svg" alt="Offer" />
-            <span class="offer-date">18 JUN 2022</span>
-            <span class="type-offer">Adventure</span>
-            <span class="offer-duration">4 Days, 3 Nights</span>
-            <h3 class="offer-header">Ansgar Scheffold</h3>
-            <span class="offer-price">400$</span>
-            <span>/Person</span>
-            <button class="offer-btn">Book Now</button>
+            <div class="photo-and-data">
+              <img class="offer-img" src="./icons/Offer2.svg" alt="Offer" />
+              <span class="offer-date">18 JUN 2022</span>
+            </div>
+            <div class="offers-info">
+              <span class="type-offer adventure">Adventure</span>
+              <span class="offer-duration">4 Days, 3 Nights</span>
+
+              <h3 class="offer-header">Ansgar Scheffold</h3>
+              <span class="offer-price">400$</span>
+              <span class="offer-txt">/Person</span>
+              <button class="offer-btn">Book Now</button>
+            </div>
           </article>
           <article class="offer">
-            <img class="offer-img" src="./icons/Offer3.svg" alt="Offer" />
-            <span class="offer-date">22 DEC 2022</span>
-            <span class="type-offer">Relax</span>
-            <span class="offer-duration">7 Days, 6 Nights</span>
-            <h3 class="offer-header">Ansgar Scheffold</h3>
-            <span class="offer-price">340$</span>
-            <span>/Person</span>
-            <button class="offer-btn">Book Now</button>
+            <div class="photo-and-data">
+              <img class="offer-img" src="./icons/Offer3.svg" alt="Offer" />
+              <span class="offer-date">22 DEC 2022</span>
+            </div>
+            <div class="offers-info">
+              <span class="type-offer relax">Relax</span>
+              <span class="offer-duration">7 Days, 6 Nights</span>
+              <h3 class="offer-header">Lona X</h3>
+              <span class="offer-price">340$</span>
+              <span class="offer-txt">/Person</span>
+              <button class="offer-btn">Book Now</button>
+            </div>
           </article>
         </div>
       </section>
       <section class="contact-info">
-        <img class="info-img" src="./icons/Contacts.svg" alt="Photo" />
-        <div class="img-text">
-          <span class="img-text">300+</span>
-          <span class="img-text">DESTINATIONS</span>
-        </div>
-        <div class="img-text">
-          <span class="img-text">5000+</span>
-          <span class="img-text">TOURISTS</span>
-        </div>
-        <div class="img-text">
-          <span class="img-text">150+</span>
-          <span class="img-text">HOTELS</span>
+        <div class="info-class">
+          <img class="info-img" src="./icons/Contacts.svg" alt="Photo" />
+          <div class="img-text dest">
+            <span class="img-text number">300+</span>
+            <span class="img-text text">DESTINATIONS</span>
+          </div>
+          <div class="img-text tour">
+            <span class="img-text number">5000+</span>
+            <span class="img-text text">TOURISTS</span>
+          </div>
+          <div class="img-text hotels">
+            <span class="img-text number">150+</span>
+            <span class="img-text text">HOTELS</span>
+          </div>
         </div>
         <article class="info">
           <h2 class="info-header">Travel Any Corner of The World With Us</h2>
-          <p class="info text">
+          <p class="info-text">
             Would you explore nature paradise in the world, let’s find the best
-            destination in world with us, Would you explore nature paradise in
+            destination in world with us. Would you explore nature paradise in
             the world, let’s find the best destination in world with us. Would
             you explore nature paradise in the world, let’s find the best
-            destination in world with us. Would you explore nature paradise in
-            the world, let’s find the best destination in world with us.
+            destination in world with us.
+          </p>
+          <p class="info-text">
+            Would you explore nature paradise in the world, let’s find the best
+            destination in world with us.
           </p>
           <button class="contact-button">Contact Us</button>
         </article>
       </section>
       <section class="recommendations">
         <h2 class="recommendations-header">Recommended Destination</h2>
-        <div class="tabs">
-          <div class="tablinks"><span>Popular</span></div>
-          <div class="tablinks"><span>Adventure</span></div>
-          <div class="tablinks"><span>Beach</span></div>
+        <div class="recommendations-tabs">
+          <button class="active rec-tablinks">Popular</button>
+          <button class="rec-tablinks">Adventure</button>
+          <button class="rec-tablinks">Beach</button>
         </div>
         <div class="recommendations-container">
           <article class="recommendation">
             <main class="recommendation-main">
-              <div class="rate">
+              <div class="rate-rec">
                 <img class="rate-img" src="./icons/Star.svg" alt="Star" />
-                <span>3.4</span>
+                <span class="rate-txt">3.4</span>
               </div>
               <img
                 class="recommendation-img"
                 src="./icons/Recommendation1.svg"
                 alt="Recommendation"
               />
-              <h3 class="recommendation-header">Kina Mountain</h3>
             </main>
-            <footer class="recommandation-footer">
-              <img
-                class="footer-img"
-                src="./icons/Location.svg"
-                alt="Location"
-              />
-              <span class="footer-text">Cambodia</span>
+            <footer class="recommendation-footer">
+              <h3 class="rec-header">Kina Mountain</h3>
+              <div class="rec-sign">
+                <img
+                  class="footer-img"
+                  src="./icons/Location.svg"
+                  alt="Location"
+                />
+                <span class="footer-rec-text">Cambodia</span>
+              </div>
             </footer>
           </article>
           <article class="recommendation">
             <main class="recommendation-main">
-              <div class="rate">
+              <div class="rate-rec">
                 <img class="rate-img" src="./icons/Star.svg" alt="Star" />
-                <span>4.5</span>
+                <span class="rate-txt">4.5</span>
               </div>
               <img
                 class="recommendation-img"
                 src="./icons/Recommendation2.svg"
                 alt="Recommendation"
               />
-              <h3 class="recommendation-header">Kina Mountain</h3>
             </main>
-            <footer class="recommandation-footer">
-              <img
-                class="footer-img"
-                src="./icons/Location.svg"
-                alt="Location"
-              />
-              <span class="footer-text">Cambodia</span>
+
+            <footer class="recommendation-footer">
+              <h3 class="rec-header">Kina Mountain</h3>
+              <div class="rec-sign">
+                <img
+                  class="footer-img"
+                  src="./icons/Location.svg"
+                  alt="Location"
+                />
+                <span class="footer-rec-text">Cambodia</span>
+              </div>
             </footer>
           </article>
           <article class="recommendation">
             <main class="recommendation-main">
-              <div class="rate">
+              <div class="rate-rec">
                 <img class="rate-img" src="./icons/Star.svg" alt="Star" />
-                <span>4.2</span>
+                <span class="rate-txt">4.2</span>
               </div>
               <img
                 class="recommendation-img"
                 src="./icons/Recommendation3.svg"
                 alt="Recommendation"
               />
-              <h3 class="recommendation-header">Kina Mountain</h3>
             </main>
-            <footer class="recommandation-footer">
-              <img
-                class="footer-img"
-                src="./icons/Location.svg"
-                alt="Location"
-              />
-              <span class="footer-text">Cambodia</span>
+
+            <footer class="recommendation-footer">
+              <h3 class="rec-header">Kina Mountain</h3>
+              <div class="rec-sign">
+                <img
+                  class="footer-img"
+                  src="./icons/Location.svg"
+                  alt="Location"
+                />
+                <span class="footer-rec-text">Cambodia</span>
+              </div>
             </footer>
           </article>
           <article class="recommendation">
             <main class="recommendation-main">
-              <div class="rate">
+              <div class="rate-rec">
                 <img class="rate-img" src="./icons/Star.svg" alt="Star" />
-                <span>3.5</span>
+                <span class="rate-txt">3.5</span>
               </div>
               <img
                 class="recommendation-img"
                 src="./icons/Recommendation4.svg"
                 alt="Recommendation"
               />
-              <h3 class="recommendation-header">Kina Mountain</h3>
             </main>
-            <footer class="recommandation-footer">
-              <img
-                class="footer-img"
-                src="./icons/Location.svg"
-                alt="Location"
-              />
-              <span class="footer-text">Cambodia</span>
+            <footer class="recommendation-footer">
+              <h3 class="rec-header">Kina Mountain</h3>
+              <div class="rec-sign">
+                <img
+                  class="footer-img"
+                  src="./icons/Location.svg"
+                  alt="Location"
+                />
+                <span class="footer-rec-text">Cambodia</span>
+              </div>
             </footer>
           </article>
         </div>
@@ -327,17 +363,17 @@
             <img class="button-img" src="./icons/Button2.svg" alt="Button" />
           </button>
         </article>
-        <article class="registration">
-          <img
-            class="registration-background"
-            src="./icons/Background2.svg"
-            alt="Background"
-          />
-          <h2 class="registration-header">
-            Don’t Miss The 50% Discount if You register Today
-          </h2>
-          <button class="registration-button">Register Today</button>
-        </article>
+      </section>
+      <section class="registration">
+        <img
+          class="registration-background"
+          src="./icons/Background2.svg"
+          alt="Background"
+        />
+        <h2 class="registration-header">
+          Don’t Miss The 50% Discount if You register Today
+        </h2>
+        <button class="registration-button">Register Today</button>
       </section>
     </main>
     <footer class="footer">
