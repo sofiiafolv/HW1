@@ -24,92 +24,103 @@
         <a class="header-link" href="#">Blog</a>
         <button class="header-btn">Blog</button>
       </nav>
-    </header>
-    <main class="main">
       <section class="banner">
-        <h1 class="banner-header">Discover Your Life, Travel Where You Want</h1>
+        <h1 class="banner-header">
+          Discover Your Life, Travel<br />
+          Where You Want
+        </h1>
         <p class="banner-text">
-          Would you explore nature paradise in the world, let’s find the best
+          Would you explore nature paradise in the world, let’s find the best<br />
           destination in world with us.
         </p>
       </section>
+    </header>
+    <main class="main">
       <section class="booking">
         <header class="booking-header">
-          <div class="filght-button">
+          <button class="booking-button active">
             <img
               class="flight-img"
               src="./icons/AirplaneButton.svg"
               alt="Icon"
             />
             <span>Flight</span>
-          </div>
-          <div class="hotel-button">
+          </button>
+          <button class="booking-button">
             <img class="hotel-img" src="./icons/Hotel.svg" alt="Icon" />
-            <span>Flight</span>
-          </div>
+            <span>Hotel</span>
+          </button>
         </header>
         <main class="booking-main">
-          <div class="destination">
-            <label class="destination-text">Living From</label>
-            <select class="city-picker">
-              <option value="dubai">Dubai</option>
-              <option value="lviv">Lviv</option>
-              <option value="new-york">New York</option>
-              <option value="london">London</option>
-            </select>
+          <div class="booking-box">
+            <div class="booking-box-section">
+              <label class="booking-label">Living From</label>
+              <select class="city-picker">
+                <option value="dubai">Dubai</option>
+                <option value="lviv">Lviv</option>
+                <option value="new-york">New York</option>
+                <option value="london">London</option>
+              </select>
+            </div>
             <img
-              class="destination-img"
-              src="./icons/Ellipse 1.svg"
-              alt="Background"
-            />
-            <img
-              class="destination-img"
-              src="./icons/AirplaneModeOn.svg"
+              class="booking-box-img"
+              src="./icons/AirplaneGray.svg"
               alt="Icon"
             />
-            <label class="destination-text">Going To</label>
-            <select class="city-picker">
-              <option value="dubai">Dubai</option>
-              <option value="lviv">Lviv</option>
-              <option value="new-york">New York</option>
-              <option value="london">London</option>
-            </select>
+            <div class="booking-box-section">
+              <label class="booking-label">Going To</label>
+              <select class="city-picker">
+                <option value="new-york">New York</option>
+                <option value="dubai">Dubai</option>
+                <option value="lviv">Lviv</option>
+                <option value="london">London</option>
+              </select>
+            </div>
           </div>
-          <div class="date">
-            <label class="date-text">Leave</label>
-            <img class="leave-img" src="./icons/AirplaneLeave.svg" alt="Icon" />
-            <input
-              class="date-input"
-              type="date"
-              min="2023-02-20"
-              max="2023-06-20"
-            />
-            <img
-              class="hotel-img"
-              src="./icons/Ellipse 1.svg"
-              alt="Background"
-            />
-            <img class="hotel-img" src="./icons/Planner.svg" alt="Icon" />
-            <label class="date-text">Return</label>
-            <img
-              class="return-img"
-              src="./icons/AirplaneReturn.svg"
-              alt="Icon"
-            />
-            <input
-              class="date-input"
-              type="date"
-              min="2023-02-20"
-              max="2023-06-20"
-            />
+          <div class="booking-box">
+            <div class="booking-box-section">
+              <label class="booking-label"
+                >Leave
+                <img
+                  class="airplane-img"
+                  src="./icons/AirplaneLeave.svg"
+                  alt="Icon"
+                />
+              </label>
+
+              <input
+                class="date-input"
+                type="date"
+                value="2023-01-14"
+                min="2023-02-20"
+                max="2023-06-20"
+              />
+            </div>
+            <img class="booking-box-img" src="./icons/Planner.svg" alt="Icon" />
+            <div class="booking-box-section">
+              <label class="booking-label"
+                >Return
+                <img
+                  class="airplane-img"
+                  src="./icons/AirplaneReturn.svg"
+                  alt="Icon"
+                />
+              </label>
+
+              <input
+                class="date-input"
+                type="date"
+                value="2023-01-23"
+                min="2023-02-20"
+                max="2023-06-20"
+              />
+            </div>
           </div>
           <button class="search-button">
-            <img class="search-image" src="./icons/Ellipse 2.svg" alt="Icon" />
-            <img class="search-image" src="./icons/Line 1.svg" alt="Icon" />
             <img
-              class="search-background"
-              src="./icons/ButtonBackground.svg"
-              alt="Background"
+              class="search-image"
+              src="./icons/SearchButton.svg"
+              alt="Icon"
             />
           </button>
         </main>
@@ -309,60 +320,54 @@
         </div>
       </section>
       <section class="reviews">
-        <article class="review">
-          <div class="review-txt">
-            <img class="review-img" src="./icons/Quotes.svg" alt="Quotes" />
-            <p class="review-txt">
-              Our trip to Morocco was truly a once in a lifetime experience and
-              we are so grateful to everyone that made it happen seamlessly. Our
-              travel planner, Jaouad, was incredible.
-            </p>
-            <span class="review-name">-Vand D</span>
-            <span class="review-txt">Happy Treloo</span>
-          </div>
-          <div class="review-user">
-            <img
-              class="user-background"
-              src="./icons/ReviewEllipse.svg"
-              alt="Background"
-            />
-            <img class="user-img" src="./icons/Person1.svg" alt="Avatar" />
-            <div class="rate">
-              <img class="rate-img" src="./icons/Star.svg" alt="Star" />
-              <span>4.5</span>
+        <div class="reviews-container">
+          <article class="review">
+            <div class="review-class">
+              <img class="review-img" src="./icons/Quotes.svg" alt="Quotes" />
+              <p class="review-txt">
+                Our trip to Morocco was truly a once in a lifetime experience
+                and we are so grateful to everyone that made it happen
+                seamlessly. Our travel planner, Jaouad, was incredible.
+              </p>
+              <span class="review-txt name">-Vand D</span>
+              <span class="review-txt">Happy Treloo</span>
             </div>
-          </div>
-        </article>
-        <article class="review">
-          <div class="review-txt">
-            <img class="review-img" src="./icons/Quotes.svg" alt="Quotes" />
-            <p class="review-txt">
-              Our trip to Morocco was truly a once in a lifetime experience and
-              we are so grateful to everyone that made it happen seamlessly. Our
-              travel planner, Jaouad, was incredible.
-            </p>
-            <span class="review-name">-Tru Vio</span>
-            <span class="review-txt">Happy Treloo</span>
-          </div>
-          <div class="review-user">
-            <img
-              class="user-background"
-              src="./icons/ReviewEllipse.svg"
-              alt="Background"
-            />
-            <img class="user-img" src="./icons/Person2.svg" alt="Avatar" />
-            <div class="rate">
-              <img class="rate-img" src="./icons/Star.svg" alt="Star" />
-              <span>4.9</span>
+            <div class="review-user">
+              <img class="user-img" src="./icons/Person1.svg" alt="Avatar" />
+              <div class="rate">
+                <img class="rate-img" src="./icons/Star.svg" alt="Star" />
+                <span class="rate-txt">4.5</span>
+              </div>
             </div>
-          </div>
+          </article>
+          <article class="review">
+            <div class="review-class">
+              <img class="review-img" src="./icons/Quotes.svg" alt="Quotes" />
+              <p class="review-txt">
+                Our trip to Morocco was truly a once in a lifetime experience
+                and we are so grateful to everyone that made it happen
+                seamlessly. Our travel planner, Jaouad, was incredible.
+              </p>
+              <span class="review-txt name">-Tru Vio</span>
+              <span class="review-txt">Happy Treloo</span>
+            </div>
+            <div class="review-user">
+              <img class="user-img" src="./icons/Person2.svg" alt="Avatar" />
+              <div class="rate">
+                <img class="rate-img" src="./icons/Star.svg" alt="Star" />
+                <span class="rate-txt">4.9</span>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="buttons">
           <button class="recommendations-btn">
             <img class="button-img" src="./icons/Button1.svg" alt="Button" />
           </button>
           <button class="recommendations-btn">
             <img class="button-img" src="./icons/Button2.svg" alt="Button" />
           </button>
-        </article>
+        </div>
       </section>
       <section class="registration">
         <img
@@ -378,10 +383,12 @@
     </main>
     <footer class="footer">
       <p class="footer-txt">© 2022 Treloo LLC - All right reserved.</p>
-      <a class="footer-link" href="#">Review</a>
-      <a class="footer-link" href="#">Tips</a>
-      <a class="footer-link" href="#">Alerts</a>
-      <a class="footer-link" href="#">Blog</a>
+      <nav class="footer-nav">
+        <a class="footer-link" href="#">Review</a>
+        <a class="footer-link" href="#">Tips</a>
+        <a class="footer-link" href="#">Alerts</a>
+        <a class="footer-link" href="#">Blog</a>
+      </nav>
     </footer>
   </body>
 </html>
