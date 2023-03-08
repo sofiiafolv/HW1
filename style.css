@@ -5,22 +5,16 @@ body{
 }
 
 .background-img {
-    /* Set rules to fill background */
     min-height: 100%;
-    min-width: 100%;
-      
-    /* Set up proportionate scaling */
+    min-width: 100%;      
     width: 100%;
     height: auto;
-      
-    /* Set up positioning */
     top: 0;
     left: 0;
   }
 
 
 .header{
-    /* position: absolute; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -120,6 +114,7 @@ a:active { text-decoration: none;
     display: flex;
     justify-content: space-between;
     gap: 31px;
+    margin-top: -1px;
 }
 
 .booking-box{
@@ -147,7 +142,7 @@ a:active { text-decoration: none;
     cursor: pointer;
     -webkit-appearance: none;
     -moz-appearance: none;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 36px;
 }
 
@@ -155,9 +150,14 @@ a:active { text-decoration: none;
     font-family: 'Poppins', sans-serif;
     border: none;
     font-size: max(1.4vw,12px);
-    font-weight: 500;
+    font-weight: 600;
+    outline: none;
 }
 
+.date-input::-webkit-calendar-picker-indicator{
+    background: transparent;
+    cursor: pointer;
+}
 
 
 .booking-button{
@@ -182,7 +182,10 @@ a:active { text-decoration: none;
 
 .booking-button.active{
     background-color: #3E86F533;
-    gap: 0;
+}
+
+.booking-button:hover{
+    background-color: #3E86F533;
 }
 
 .flight-img {
@@ -231,7 +234,6 @@ a:active { text-decoration: none;
 }
 
 .off-tabs{
-    position: relative;
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -274,7 +276,6 @@ a:active { text-decoration: none;
 }
 
 .offers-container{
-    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -283,7 +284,6 @@ a:active { text-decoration: none;
 }
 
 .offer{
-    position: relative;
     width: 25%;
     min-width: 195px;
     background: white;
@@ -296,7 +296,6 @@ a:active { text-decoration: none;
 .photo-and-data{
     padding-top: max(4%, 20px);
     padding-left: 7%;
-    position: relative;
     display: flex;
     object-fit: cover;
     align-items: center;
@@ -304,13 +303,11 @@ a:active { text-decoration: none;
 }
 
 .offer-img{
-    position: relative;
     width:80%;
     margin-right: 5%;
 }
 
 .offer-date{
-    position: relative;
     writing-mode: vertical-rl;
     text-orientation: mixed;
     margin-top: 20px;
@@ -328,7 +325,6 @@ a:active { text-decoration: none;
 }
 
 .type-offer.relax{
-    position: relative;
     background-color: #FCDDEC;
     border-radius: 100px;
     padding-left: 15px;
@@ -342,7 +338,6 @@ a:active { text-decoration: none;
 
 
 .type-offer.adventure{
-    position: relative;
     background-color: #F1F1FD;;
     border-radius: 100px;
     padding-left: 15px;
@@ -385,7 +380,6 @@ a:active { text-decoration: none;
 }
 
 .offer-btn{
-    position: relative;
     background-color: #F2F6FF;
     border-radius: 10px;
     border: none;
@@ -466,7 +460,6 @@ span.img-text.text{
 }
 
 .info-header{
-    position: relative;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: max(3vw, 20px);
@@ -474,7 +467,6 @@ span.img-text.text{
 }
 
 .info-text{
-    position: relative;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: max(1.2vw, 11px);
@@ -485,7 +477,6 @@ span.img-text.text{
 }
 
 .contact-button{
-    position: relative;
     background: #3E86F5;
     border-radius: 10px;
     border: none;
@@ -511,7 +502,6 @@ span.img-text.text{
     display: flex;
     justify-content: center;
     margin-top: 5px;
-    margin-bottom: 4%;
     gap: 24px;
 }
 
@@ -545,7 +535,6 @@ span.img-text.text{
   }
 
   .recommendations-container{
-    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -566,7 +555,6 @@ span.img-text.text{
 
 
 .recommendation-img{
-    position: relative;
     width: 100%;  
 }
 
@@ -585,9 +573,8 @@ span.img-text.text{
 
 
 .rate-txt{
-    font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: max(0.8vw, 8px);
+    font-size: max(0.8vw, 10px);
     font-style: normal;
 }
 
@@ -624,21 +611,19 @@ span.img-text.text{
 }
 
 .rec-header{
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: max(1.1vw, 12px);
+    font-size: max(1.1vw, 14px);
     margin-bottom: 5px;
 }
 
 .footer-rec-text{
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: max(0.8vw, 10px);
+    font-size: max(0.8vw, 12px);
     color: rgba(0, 0, 0, 0.5);
 }
 
 .reviews{
-    margin-top: 25%;
+    margin-top: 17%;
     padding: 0 11%;
 }
 
@@ -674,7 +659,7 @@ span.img-text.text{
     text-align: center;
     inline-size: 100%;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: max(1.2vw, 14px);
     line-height: 2.8vw;
 }
@@ -726,11 +711,11 @@ span.review-txt{
     margin-top: 10%;
     margin-bottom: 10%;
     justify-content: center;
+    padding: 0 11%;
 }
 
 .registration-background{
-    position: relative;
-    width: 85vw;
+    width: 100%;
 }
 
 .registration-header{
@@ -763,7 +748,8 @@ span.review-txt{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 8%;
+    padding: 0 11%;
+    margin-bottom: 10px;
 }
 
 .footer-txt{
