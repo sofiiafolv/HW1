@@ -216,7 +216,7 @@ a:active { text-decoration: none;
 .search-button{
     border: none;
     cursor: pointer;
-    padding: 5%;
+    padding: 50px;
     width: fit-content;
     height: fit-content;
     background: rgba(62, 134, 245, 0.8);
